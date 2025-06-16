@@ -2,9 +2,9 @@
   "$schema": "https://wails.io/schemas/config.v2.json",
   "name": "GUI.for.SingBox",
   "outputfilename": "GUI.for.SingBox",
-  "frontend:install": "pnpm install",
-  "frontend:build": "pnpm run build",
-  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:install": "sudo pnpm install",
+  "frontend:build": "sudo pnpm run build",
+  "frontend:dev:watcher": "sudo pnpm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
     "name": "GUI.for.Cores",
